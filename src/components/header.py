@@ -10,7 +10,7 @@ def header_home():
     st.markdown(
         f"""
         <div style = "display : flex; justify-content : center ; align-items : center; flex-direction : column; margin-bottom : 30px; margin-top : 30px">
-            <img src='data:image/png;base64,{img_b64}' width='200' height='200'>
+            <img src='data:image/png;base64,{img_b64}' width='250' height='250'>
             <h1 style = "text-align : center; color : #E0E3FF;">SNAP<br/>CLASS</h1>
         </div>
         """,
