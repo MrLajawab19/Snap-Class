@@ -9,6 +9,12 @@ def base_layout_home():
                 background-color : #5865f2 !important;
             }
 
+            .stApp div[data-testid = "stColumn"]{
+                background-color : #E0E3FF !important;
+                padding : 2.5rem !important;
+                border-radius : 5rem !important;
+            }
+
 
         </style>
 
@@ -35,7 +41,7 @@ def base_layout():
     st.markdown(
         """
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Climate+Crisis:YEAR@1979&family=Outfit:wght@100..900&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Outfit:wght@100..900&display=swap');
 
 
@@ -48,19 +54,19 @@ def base_layout():
                 padding-top : 1.5rem !important}
 
             h1 {
-                font-family : "Caacupe One" !important;
-                font-size : 3.5rem !important;
-                line-height : 0.9 !important;
+                font-family : "Climate Crisis" !important;
+                font-size : 3.2rem !important;
+                line-height : 1.1 !important;
                 margin-bottom : 0rem !important;
                 color : white !important;
             }
 
             h2 {
-                font-family : "Caacupe One" !important;
-                font-size : 3.5rem !important;
-                line-height : 0.9 !important;
+                font-family : "Climate Crisis" !important;
+                font-size : 2rem !important;
+                line-height : 1.1 !important;
                 margin-bottom : 0rem !important;
-                color : white !important;
+                color : black !important;
             }
 
             h3, h4, p {
