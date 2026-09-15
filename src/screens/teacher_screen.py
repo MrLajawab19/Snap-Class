@@ -61,7 +61,6 @@ def teacher_register():
     teacher_name = st.text_input("Your Full name",key = "teacher_name", placeholder = "Ayush Bardhani")
     teacher_password = st.text_input("Your Password",key = "teacher_password", placeholder = "Password",type = "password")
     teacher_password_confirm = st.text_input("Confirm Your Password",key = "teacher_password_confirm", placeholder = "Password",type = "password")
-    teacher_gender = st.selectbox("Gender",key = "teacher_gender", options = ["Male","Female","Other"])
 
     st.divider()
 
