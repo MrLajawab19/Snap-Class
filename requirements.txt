@@ -9,9 +9,14 @@ setuptools #used for github installations
 
 #database 
 supabase
-bcrypt
+bcrypt #encrypt password
 
 segno #qrcode generator
 pillow #image pre processing . One of the most useful libraries for image processing in Python. It provides a wide range of image manipulation capabilities, including resizing, cropping, filtering, and format conversion. Pillow is a fork of the original Python Imaging Library (PIL) and is actively maintained.
 
 streamlit #frontend library
+
+librosa #edit the voice , cut, noise removal etc
+speechbrain #encodes audio replacement for speechbrain
+torch # Machine learning framework
+torchaudio # Audio processing library
